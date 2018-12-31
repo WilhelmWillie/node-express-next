@@ -7,6 +7,12 @@ routing, automatic code splitting, and server side rendering.
 This boilerplate specifically supports Next + Express SSR and uses next-routes to
 allow for pretty routes (/link/:id vs. /link?id=XYZ)
 
+## Installation and Usage
+* Clone this repository onto your local system: `git clone https://github.com/WilhelmWillie/node-express-next.git`
+* CD into directory and run `npm install`
+* Run `npm run dev` to start server
+  * Changes to JS code will restart server [To-do: ignore changes made to pages and components directory]
+
 ## To-Do
 * Add support for CSS frameworks (i.e. Bulma)
 * Implement basic CRUD routes for Link model
